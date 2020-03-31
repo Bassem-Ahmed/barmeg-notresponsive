@@ -1,0 +1,157 @@
+body
+{
+    background-color: black;
+      font-family: Arial, tahoma, sans-serif;
+
+}
+.container
+{
+    width:1170px;
+    margin:auto:   
+}
+/* start header */
+header
+{
+    background-color: silver;
+    height: 100px;
+   text-align: center;
+    width: 1330px;
+    align-content: center;
+    margin: auto;
+}
+
+header ul
+{
+    margin: 0;  
+    list-style:none;
+    float: inherit;
+    font-weight:bold;
+    margin: 10px auto;
+    padding-top: 5px;
+}
+header ul li
+{
+    text-align: center;
+     padding: 15px;
+    margin:17px auto;
+    color:black;
+    background-color:#fff;
+    border-radius:50%;
+    float: left;
+    text-transform: capitalize;
+    margin-left: 100px;
+    border: 1px solid gold;
+    
+}
+/* end header */
+
+/* start navbar */
+nav
+{
+    width:1330px;
+    float: left;
+}
+img
+{
+    height:30px;
+    width:30px;
+    float: left;
+    margin-left: 150px;
+    background-color: black;
+}
+h2
+{
+    color: aliceblue;
+    padding-left: 13px;
+    float: left;
+    margin: 0;
+}
+nav h2 span
+{
+    color: gold;
+}
+nav ul
+{
+    margin: 0;
+    float: right;
+}
+nav ul li
+{
+    text-align: center;
+    list-style: none;
+    float:left;
+    font-size:17px;
+    padding-right: 35px;
+    padding-top: 5px;
+    color:aquamarine;
+    
+}
+nav ul li a
+{
+  color: #fff;
+  text-decoration: none;
+}
+nav ul li.active a,
+nav ul li a:hover
+{
+    color: white;
+    border: 1px solid gold;
+}
+/* end navbar */
+
+/* start hello */
+section
+{
+    height: 470px;
+    text-align: center;
+    padding-top: 30px;
+    background-repeat: no-repeat;
+}
+section img
+{
+    width: 600px;
+    height: 300px;
+    margin-left: 370px;
+}
+h1
+{
+    color: white;
+    font-size: 30px;
+}
+section h1 span
+{
+    color: gold;
+}
+/* end hello */
+footer
+{
+  background-color:silver;
+  color: black;
+  padding:10px 0;
+  text-align: center;
+  overflow:hidden;
+  width: 1330px;
+  margin-left: 12px;
+  margin-top: 0px;
+}
+footer span
+{
+    float:left;
+    padding: 0 90px;
+}
+footer ul
+{
+    list-style: none;
+    padding-left:0;
+    margin: 0;
+    float:right;
+    padding: 0 90px;
+}
+footer ul li
+{
+    display:inline-block;
+}
+footer ul li i:hover
+{
+    color:#fff;
+}
